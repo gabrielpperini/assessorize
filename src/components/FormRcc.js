@@ -57,6 +57,12 @@ export default class FormRcc extends Component {
                 onChangeText={( text, key ) => this.formData(text, key)}
                 />
                 <FieldComponent 
+                titulo="Forma de Contato" 
+                placeholder="Forma de Contato" 
+                keyData='formaContato'
+                onChangeText={( text, key ) => this.formData(text, key)}                
+                />
+                <FieldComponent 
                 titulo="2) Classificação do RCC"  
                 keyData='classificacao'
                 onChangeText={( text, key ) => this.formData(text, key)}

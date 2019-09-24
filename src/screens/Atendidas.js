@@ -123,6 +123,12 @@ export default class Atendidas extends Component {
                 route = 'RccParcial'
                 break;
         }
+        var assuntoNome = '';
+        if(item.assuntoNome.length > 23){
+            assuntoNome = item.assuntoNome.substr(0,23) + '...'
+        }else{
+            assuntoNome = item.assuntoNome;
+        }
         return(
             <TouchableOpacity style={styles.atendidas.Item}
             onPress={() => {
@@ -136,7 +142,7 @@ export default class Atendidas extends Component {
                 }
             }}
             >
-                <Text style={styles.atendidas.text}>{item.assuntoNome}</Text>
+                <Text style={styles.atendidas.text}>{assuntoNome}</Text>
                 <Image
                 source={image}
                 style={styles.atendidas.icon}

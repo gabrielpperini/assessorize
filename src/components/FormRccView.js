@@ -66,6 +66,14 @@ export default class FormRccView extends Component {
                 editable={false}
                 />
                 <FieldComponent 
+                titulo="Forma de Contato" 
+                placeholder="Forma de Contato" 
+                keyData='formaContato'
+                onChangeText={( text, key ) => {}}
+                value={this.state.data.formaContato}
+                editable={false}
+                />
+                <FieldComponent 
                 titulo="2) Classificação do RCC"  
                 keyData='classificacao'
                 onChangeText={( text, key ) => {}}

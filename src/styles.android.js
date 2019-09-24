@@ -174,15 +174,14 @@ export default styles = {
         },
         button: {
             backgroundColor: '#721e24',
-            width: dim.width - 120,
+            width: dim.width - 50,
             height: 60,
             borderRadius: 30,
             marginVertical: 20
         },
         buttonText: {
             color: "#c97334",
-            textTransform: 'uppercase',
-            fontSize: 24,
+            fontSize: 22,
             textAlignVertical: 'center',
             textAlign: 'center',
             height: 60

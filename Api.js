@@ -1,7 +1,7 @@
 import { AsyncStorage } from 'react-native'
 import OneSignal from 'react-native-onesignal';
 
-const base_url = "http://agencialazo.com.br/assessorize/app/";
+const base_url = "http://grupoassessorize.com.br/appadmin/app/";
 
 const request = async ({url , error , body , text }) => {
     var data = null;
